@@ -1,0 +1,14 @@
+function formater = (value , cc) =>{
+let value;
+  switch(cc){
+    case "USA": fn = value * 93; break;
+    case "RUSSIA": fn = value * 123; break;
+    case "DUBAI": fn = value * 53; break;
+    case "PAK": fn = value /0.3354; break;
+default: "Enter correct country";
+}
+retrun value;
+}
+
+let value = formater(45554, "PAK");
+console.log(`the converted rate is ${value} INR`);
