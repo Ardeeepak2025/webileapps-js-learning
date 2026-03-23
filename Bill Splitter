@@ -1,0 +1,6 @@
+function split(input1,input2){
+  let bill = input1/input2;
+return bill;
+}
+let bill = split(4500,5);
+console.log(`Bill per each person is ${bill}.`) ;
