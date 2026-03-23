@@ -1,0 +1,26 @@
+let a =5;
+let b =5;
+
+function swap1 = (a = 0,b = 0) =>{
+    let c = a;
+    a=b;
+    b =c;
+  return[a,b];
+}
+  function swap2 = (a = 0,b = 0) =>{
+    a= a +b;
+    b= a -b;
+    a =a -b;
+  return[a,b];
+}
+      function swap3 = (a = 0,b = 0) =>{
+    a= a ^b;
+    b= a ^b;
+    a =a ^b;
+  return[a,b];
+}
+  
+
+  let [x,y] = swap1(a,b);
+  console.log(x);
+  console.log(y);
