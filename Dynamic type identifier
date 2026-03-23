@@ -1,0 +1,6 @@
+function findDT= (input) => {
+  return typeof input;
+}
+
+let result = findDT(5);
+console.log(result);
