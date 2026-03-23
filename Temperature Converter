@@ -1,0 +1,12 @@
+function covert = (input,input2) => {
+  let value = -1;
+  if(input2 == "C" || input2 == "c"){
+    value = (input * 9/5) + 32;
+  }else{
+    value = (input - 32) * (5/9);
+}
+return value;
+}
+
+let op = convert(35,"c");
+console.log(op);
